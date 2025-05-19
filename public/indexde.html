@@ -94,38 +94,36 @@
 
         <!-- Nav Links + Language Switch -->
         <nav :class="{'block': isOpen, 'hidden': !isOpen}"
-            class="absolute top-full left-0 w-full bg-white/90 glass-card backdrop-blur-md lg:backdrop-none lg:bg-transparent lg:static lg:block lg:w-auto">
-            <ul class="flex flex-col lg:flex-row lg:items-center lg:space-x-8 p-6 lg:p-0 text-base lg:text-lg">
-                <li>
-                    <a href="#about"
-                        class="block py-2 lg:py-0 text-gray-700 hover:text-accent-orange transition">About</a>
-                </li>
-                <li>
-                    <a href="#projects"
-                        class="block py-2 lg:py-0 text-gray-700 hover:text-accent-orange transition">Projects</a>
-                </li>
-                <li>
-                    <a href="#testimonials"
-                        class="block py-2 lg:py-0 text-gray-700 hover:text-accent-orange transition">Testimonials</a>
-                </li>
-                <li>
-                    <a href="#contact"
-                        class="block py-2 lg:py-0 text-gray-700 hover:text-accent-orange transition">Contact</a>
-                </li>
-                <li class="mt-4 lg:mt-0">
-                    <div class="flex items-center space-x-2">
-                        <a href="index.html" class="font-semibold text-accent-blue hover:text-accent-orange transition">
-                            EN
-                        </a>
-                        <span class="text-gray-400">|</span>
-                        <a href="indexde.html" class="text-gray-600 hover:text-accent-orange transition">
-                            DE
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-
+        class="absolute top-full left-0 w-full bg-white/90 glass-card backdrop-blur-md lg:backdrop-none lg:bg-transparent lg:static lg:block lg:w-auto">
+        <ul class="flex flex-col lg:flex-row lg:items-center lg:space-x-8 p-6 lg:p-0 text-base lg:text-lg">
+            <li>
+                <a href="#about" class="block py-2 lg:py-0 text-gray-700 hover:text-accent-orange transition">About</a>
+            </li>
+            <li>
+                <a href="#projects" class="block py-2 lg:py-0 text-gray-700 hover:text-accent-orange transition">Projects</a>
+            </li>
+            <li>
+                <a href="#testimonials" class="block py-2 lg:py-0 text-gray-700 hover:text-accent-orange transition">Testimonials</a>
+            </li>
+            <li>
+                <a href="#contact" class="block py-2 lg:py-0 text-gray-700 hover:text-accent-orange transition">Contact</a>
+            </li>
+            <li class="mt-4 lg:mt-0">
+                <div class="flex items-center space-x-2">
+                    <a href="index.html"
+                       class="font-semibold text-accent-blue hover:text-accent-orange transition">
+                       EN
+                    </a>
+                    <span class="text-gray-400">|</span>
+                    <a href="indexde.html"
+                       class="text-gray-600 hover:text-accent-orange transition">
+                       DE
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    
 
     </header>
 
@@ -261,8 +259,7 @@
         </section>
 
 
-        <section id="about-education"
-            class="py-20 bg-gradient-to-br from-accent-blue via-blue-200 to-accent-orange px-6">
+        <section id="about-education" class="py-20 bg-gradient-to-br from-blue-50 to-blue-100 px-6">
             <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12" data-aos="fade-up">
                 <!-- About Section -->
                 <div class="bg-white/80 p-8 rounded-2xl shadow-lg border border-gray-200">
@@ -280,57 +277,51 @@
 
                 <!-- Education Timeline -->
                 <div class="relative">
-                    <div class="bg-white/80 p-8 rounded-2xl shadow-lg border border-gray-200">
-                        <h2
-                            class="text-4xl font-merriweather text-gray-900 mb-6 text-center border-b-4 border-accent-blue pb-2">
-                            Academic Journey</h2>
-                        <div class="space-y-16 relative pl-6">
-                            <!-- Timeline Connector -->
-                            <div class="absolute top-0 left-4 h-full w-1 bg-accent-blue/20"></div>
+                    <h2
+                        class="text-4xl font-merriweather text-gray-900 mb-6 text-center border-b-4 border-accent-blue pb-2">
+                        Academic Journey</h2>
+                    <div class="space-y-16 relative pl-6">
+                        <!-- Timeline Connector -->
+                        <div class="absolute top-0 left-4 h-full w-1 bg-accent-blue/20"></div>
 
-                            <!-- FAU -->
-                            <div class="relative flex items-center space-x-6">
-                                <div class="flex-shrink-0">
-                                    <img src="../src/assets/Photos/FAU EEI.webp" alt="FAU Campus"
-                                        class="w-32 h-32 rounded-xl shadow-lg object-cover transform group-hover:scale-105 transition-transform" />
-                                </div>
-                                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 flex-1">
-                                    <h3 class="text-2xl font-semibold mb-1">M.Sc. Autonomy Technologies</h3>
-                                    <p class="text-accent-blue font-medium mb-2">FAU Erlangen–Nürnberg • 2025–Present
-                                    </p>
-                                    <p class="text-gray-600">Advanced coursework in embedded AI, autonomous systems, and
-                                        IoT
-                                        architectures</p>
-                                </div>
+                        <!-- FAU -->
+                        <div class="relative flex items-center space-x-6">
+                            <div class="flex-shrink-0">
+                                <img src="../src/assets/Photos/FAU EEI.webp" alt="FAU Campus"
+                                    class="w-32 h-32 rounded-xl shadow-lg object-cover transform group-hover:scale-105 transition-transform" />
                             </div>
-
-                            <!-- Mechatronics -->
-                            <div class="relative flex items-center space-x-6">
-                                <div class="flex-shrink-0">
-                                    <img src="../src/assets/Photos/robot.webp" alt="Robot"
-                                        class="w-32 h-32 rounded-xl shadow-lg object-cover transform group-hover:scale-105 transition-transform" />
-                                </div>
-                                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 flex-1">
-                                    <h3 class="text-2xl font-semibold mb-1">B.Sc. Mechatronic Systems Engineering</h3>
-                                    <p class="text-accent-blue font-medium mb-2">Hochschule Rhein-Waal • 2022–2024</p>
-                                    <p class="text-gray-600">Focus on embedded electronics and control systems (GPA:
-                                        2.3)
-                                    </p>
-                                </div>
+                            <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 flex-1">
+                                <h3 class="text-2xl font-semibold mb-1">M.Sc. Autonomy Technologies</h3>
+                                <p class="text-accent-blue font-medium mb-2">FAU Erlangen–Nürnberg • 2025–Present</p>
+                                <p class="text-gray-600">Advanced coursework in embedded AI, autonomous systems, and IoT
+                                    architectures</p>
                             </div>
+                        </div>
 
-                            <!-- Electrical Eng. -->
-                            <div class="relative flex items-center space-x-6">
-                                <div class="flex-shrink-0">
-                                    <img src="../src/assets/Photos/HSRW.webp" alt="Electronics"
-                                        class="w-32 h-32 rounded-xl shadow-lg object-cover transform group-hover:scale-105 transition-transform" />
-                                </div>
-                                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 flex-1">
-                                    <h3 class="text-2xl font-semibold mb-1">B.Sc. Electrical Engineering</h3>
-                                    <p class="text-accent-blue font-medium mb-2">Hochschule Rhein-Waal • 2017–2021</p>
-                                    <p class="text-gray-600">205 ECTS completed in control systems and electronics
-                                        (Endgultig Nicht Bestanden)</p>
-                                </div>
+                        <!-- Mechatronics -->
+                        <div class="relative flex items-center space-x-6">
+                            <div class="flex-shrink-0">
+                                <img src="../src/assets/Photos/robot.webp" alt="Robot"
+                                    class="w-32 h-32 rounded-xl shadow-lg object-cover transform group-hover:scale-105 transition-transform" />
+                            </div>
+                            <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 flex-1">
+                                <h3 class="text-2xl font-semibold mb-1">B.Sc. Mechatronic Systems Engineering</h3>
+                                <p class="text-accent-blue font-medium mb-2">Hochschule Rhein-Waal • 2022–2024</p>
+                                <p class="text-gray-600">Focus on embedded electronics and control systems (GPA: 2.3)
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Electrical Eng. -->
+                        <div class="relative flex items-center space-x-6">
+                            <div class="flex-shrink-0">
+                                <img src="../src/assets/Photos/HSRW.webp" alt="Electronics"
+                                    class="w-32 h-32 rounded-xl shadow-lg object-cover transform group-hover:scale-105 transition-transform" />
+                            </div>
+                            <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 flex-1">
+                                <h3 class="text-2xl font-semibold mb-1">B.Sc. Electrical Engineering</h3>
+                                <p class="text-accent-blue font-medium mb-2">Hochschule Rhein-Waal • 2017–2021</p>
+                                <p class="text-gray-600">205 ECTS completed in control systems and electronics </p>
                             </div>
                         </div>
                     </div>
@@ -339,12 +330,8 @@
         </section>
 
 
-        <div class="h-1 w-32 bg-orange-500 mx-auto my-12 rounded-full"></div>
-
-
         <!-- Technical Competencies -->
-        <section id="technical" class="py-20 bg-gradient-to-br from-accent-blue via-blue-200 to-accent-orange px-6">
-
+        <section id="technical" class="py-20 bg-gradient-to-br from-blue-50 to-blue-100 px-6">
             <div class="max-w-6xl mx-auto" data-aos="fade-up">
                 <h2 class="text-4xl font-merriweather text-gray-900 mb-12 text-center">
                     <span class="border-b-4 border-accent-blue pb-2">Technical Competencies</span>
@@ -511,43 +498,34 @@
         </section>
 
 
-        <section id="skills" class="py-20 bg-gradient-to-br from-accent-blue via-blue-200 to-accent-orange px-6">
-            <div class="max-w-6xl mx-auto" data-aos="fade-up">
-                <h2 class="text-4xl font-merriweather text-gray-900 mb-12 text-center">
-                    <span class="border-b-4 border-accent-blue pb-2">Other Skills</span>
-                </h2>
-
-                <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8" data-aos="fade-up">
-                    <!-- Language Proficiency (left column) -->
-                    <div class="bg-accent-blue/5 p-8 rounded-2xl shadow-lg border border-accent-blue/20">
-                        <h3 class="text-3xl font-merriweather text-gray-900 mb-6 text-center">
-                            Language Proficiency
-                        </h3>
-                        <div class="flex flex-wrap gap-3 justify-center">
-                            <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">English
-                                (Native)</span>
-                            <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">German (C1)</span>
-                            <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">French
-                                (Native)</span>
-                        </div>
-                    </div>
-
-                    <!-- Professional Attributes (right column) -->
-                    <div class="bg-accent-blue/5 p-8 rounded-2xl shadow-lg border border-accent-blue/20">
-                        <h3 class="text-3xl font-merriweather text-gray-900 mb-6 text-center">
-                            Professional Attributes
-                        </h3>
-                        <div class="flex flex-wrap gap-3 justify-center">
-                            <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">Multitasking</span>
-                            <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">Critical
-                                Thinking</span>
-                            <span
-                                class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">Self-Motivation</span>
-                            <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">Team
-                                Collaboration</span>
-                        </div>
+        <section id="skills" class="py-20 bg-gradient-to-br from-blue-50 to-blue-100 px-6">
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8" data-aos="fade-up">
+                <!-- Language Proficiency (left column) -->
+                <div class="bg-accent-blue/5 p-8 rounded-2xl shadow-lg border border-accent-blue/20">
+                    <h3 class="text-3xl font-merriweather text-gray-900 mb-6 text-center">
+                        Language Proficiency
+                    </h3>
+                    <div class="flex flex-wrap gap-3 justify-center">
+                        <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">English (Native)</span>
+                        <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">German (C1)</span>
+                        <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">French (Native)</span>
                     </div>
                 </div>
+
+                <!-- Professional Attributes (right column) -->
+                <div class="bg-accent-blue/5 p-8 rounded-2xl shadow-lg border border-accent-blue/20">
+                    <h3 class="text-3xl font-merriweather text-gray-900 mb-6 text-center">
+                        Professional Attributes
+                    </h3>
+                    <div class="flex flex-wrap gap-3 justify-center">
+                        <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">Multitasking</span>
+                        <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">Critical Thinking</span>
+                        <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">Self-Motivation</span>
+                        <span class="px-4 py-2 bg-accent-blue/10 text-accent-blue rounded-full">Team
+                            Collaboration</span>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Projects Section -->
